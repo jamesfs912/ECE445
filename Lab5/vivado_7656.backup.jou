@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Nov  3 08:33:09 2023
+# Process ID: 7656
+# Current directory: E:/Lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9140 E:\Lab5\Lab5.xpr
+# Log file: E:/Lab5/vivado.log
+# Journal file: E:/Lab5\vivado.jou
+# Running On: DESKTOP-D7UP832, OS: Windows, CPU Frequency: 3700 MHz, CPU Physical cores: 12, Host memory: 33489 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Lab5/Lab5.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files E:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v] -no_script -reset -force -quiet
+remove_files  E:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+open_bd_design {E:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd}
+delete_bd_objs [get_bd_nets xlslice_0_Dout]
+delete_bd_objs [get_bd_nets control_0_RegWrite]
+delete_bd_objs [get_bd_nets control_0_RegDst]
+delete_bd_objs [get_bd_nets control_0_ALUSrc]
+delete_bd_objs [get_bd_nets control_0_ALUOp]
+open_bd_design {E:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd}
+update_module_reference Lab5_control_0_0
+update_module_reference Lab5_control_0_0
+add_files -norecurse -scan_for_includes E:/DataMem.vhd
+import_files -norecurse E:/DataMem.vhd
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference DataMem DataMem_0
+set_property location {3226 -172} [get_bd_ports DOut]
+set_property location {3137 -87} [get_bd_ports DOut]
+delete_bd_objs [get_bd_nets alu_0_ALUout]
+delete_bd_objs [get_bd_nets alu_0_Carryout]
+delete_bd_objs [get_bd_nets alu_0_Overflow]
+delete_bd_objs [get_bd_nets alu_0_Zero]
+add_files -norecurse -scan_for_includes E:/WriteBackMux.vhd
+import_files -norecurse E:/WriteBackMux.vhd
+update_compile_order -fileset sources_1
+save_bd_design

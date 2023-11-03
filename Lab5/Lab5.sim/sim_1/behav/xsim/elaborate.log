@@ -1,0 +1,65 @@
+Vivado Simulator v2023.1.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xlconstant_v1_1_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ALUSrcMux [alusrcmux_default]
+Compiling module xil_defaultlib.Lab5_ALUSrcMux_0_0
+Compiling architecture behavioral of entity xil_defaultlib.DataMem [datamem_default]
+Compiling module xil_defaultlib.Lab5_DataMem_0_0
+Compiling architecture behavioral of entity xil_defaultlib.InstMem [instmem_default]
+Compiling module xil_defaultlib.Lab5_InstMem_0_0
+Compiling architecture behavioral of entity xil_defaultlib.PCAdder [pcadder_default]
+Compiling module xil_defaultlib.Lab5_PCAdder_0_0
+Compiling architecture behavioral of entity xil_defaultlib.ProgramCounter [programcounter_default]
+Compiling module xil_defaultlib.Lab5_ProgramCounter_0_0
+Compiling architecture behavioral of entity xil_defaultlib.RegDstMux [regdstmux_default]
+Compiling module xil_defaultlib.Lab5_RegDstMux_0_0
+Compiling architecture behavioral of entity xil_defaultlib.RegFile [regfile_default]
+Compiling module xil_defaultlib.Lab5_RegFile_0_0
+Compiling architecture behavioral of entity xil_defaultlib.WriteBackMux [writebackmux_default]
+Compiling module xil_defaultlib.Lab5_WriteBackMux_0_0
+Compiling architecture behavioral of entity xil_defaultlib.alu [alu_default]
+Compiling module xil_defaultlib.Lab5_alu_0_0
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling module xil_defaultlib.Lab5_alu_control_0_0
+Compiling architecture behavioral of entity xil_defaultlib.control [control_default]
+Compiling module xil_defaultlib.Lab5_control_0_0
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling module xil_defaultlib.Lab5_sign_ext_0_0
+Compiling module xlconstant_v1_1_7.xlconstant_v1_1_7_xlconstant(CON...
+Compiling module xil_defaultlib.Lab5_xlconstant_0_1
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_0_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_1_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_1_1
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_1_2
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_1_3
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_1_4
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_1_5
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_1_6
+Compiling module xil_defaultlib.Lab5
+Compiling module xil_defaultlib.Lab5_wrapper
+Compiling architecture sim of entity xil_defaultlib.testbench
+Built simulation snapshot TestBench_behav

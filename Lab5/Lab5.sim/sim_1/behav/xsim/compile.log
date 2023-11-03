@@ -1,0 +1,50 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_ProgramCounter_0_0/sim/Lab5_ProgramCounter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_ProgramCounter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_InstMem_0_0/sim/Lab5_InstMem_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_InstMem_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_PCAdder_0_0/sim/Lab5_PCAdder_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_PCAdder_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_0_0/sim/Lab5_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_0/sim/Lab5_xlslice_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_1/sim/Lab5_xlslice_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_2/sim/Lab5_xlslice_1_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_3/sim/Lab5_xlslice_1_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_4/sim/Lab5_xlslice_1_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_5/sim/Lab5_xlslice_1_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_6/sim/Lab5_xlslice_1_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_RegFile_0_0/sim/Lab5_RegFile_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_RegFile_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_sign_ext_0_0/sim/Lab5_sign_ext_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_sign_ext_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_RegDstMux_0_0/sim/Lab5_RegDstMux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_RegDstMux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_alu_0_0/sim/Lab5_alu_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_alu_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_alu_control_0_0/sim/Lab5_alu_control_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_alu_control_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_ALUSrcMux_0_0/sim/Lab5_ALUSrcMux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_ALUSrcMux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_control_0_0/sim/Lab5_control_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_control_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_DataMem_0_0/sim/Lab5_DataMem_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_DataMem_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlconstant_0_1/sim/Lab5_xlconstant_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlconstant_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_WriteBackMux_0_0/sim/Lab5_WriteBackMux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_WriteBackMux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/sim/Lab5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_wrapper
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/instmem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'InstMem'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control'

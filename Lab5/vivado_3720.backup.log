@@ -1,0 +1,682 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Fri Nov  3 09:38:37 2023
+# Process ID: 3720
+# Current directory: D:/Lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14340 D:\Lab5\Lab5.xpr
+# Log file: D:/Lab5/vivado.log
+# Journal file: D:/Lab5\vivado.jou
+# Running On: ENGR1505-24, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 16, Host memory: 34033 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project D:/Lab5/Lab5.xpr
+INFO: [Project 1-313] Project file moved from 'E:/Lab5' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'Lab5.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+Lab5_xlconstant_0_0
+
+INFO: [Project 1-230] Project 'Lab5.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1371.406 ; gain = 99.242
+report_ip_status -name ip_status 
+open_bd_design {D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd}
+Reading block design file <D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd>...
+Adding component instance block -- xilinx.com:module_ref:ProgramCounter:1.0 - ProgramCounter_0
+Adding component instance block -- xilinx.com:module_ref:InstMem:1.0 - InstMem_0
+Adding component instance block -- xilinx.com:module_ref:PCAdder:1.0 - PCAdder_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_3
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_4
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_5
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_6
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_7
+Adding component instance block -- xilinx.com:module_ref:RegFile:1.0 - RegFile_0
+Adding component instance block -- xilinx.com:module_ref:sign_ext:1.0 - sign_ext_0
+Adding component instance block -- xilinx.com:module_ref:RegDstMux:1.0 - RegDstMux_0
+Adding component instance block -- xilinx.com:module_ref:alu:1.0 - alu_0
+Adding component instance block -- xilinx.com:module_ref:alu_control:1.0 - alu_control_0
+Adding component instance block -- xilinx.com:module_ref:ALUSrcMux:1.0 - ALUSrcMux_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:control:1.0 - control_0
+Adding component instance block -- xilinx.com:module_ref:DataMem:1.0 - DataMem_0
+Successfully read diagram <Lab5> from block design file <D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd>
+update_compile_order -fileset sources_1
+delete_bd_objs [get_bd_nets xlconstant_0_dout] [get_bd_cells xlconstant_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0
+endgroup
+set_property location {7 2297 -572} [get_bd_cells xlconstant_0]
+connect_bd_net [get_bd_pins xlconstant_0/dout] [get_bd_pins alu_0/Carryin]
+expected number but got ""
+ERROR: [IP_Flow 19-3317] Tcl Error found in 'validate_PARAM_VALUE.CONST_VAL' method. expected number but got ""
+startgroup
+set_property CONFIG.CONST_VAL {0} [get_bd_cells xlconstant_0]
+endgroup
+update_module_reference Lab5_InstMem_0_0
+Upgrading 'D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd'
+INFO: [IP_Flow 19-3420] Updated Lab5_InstMem_0_0 to use current project options
+Wrote  : <D:\Lab5\Lab5.srcs\sources_1\bd\Lab5\Lab5.bd> 
+Wrote  : <D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/ui/bd_3ba108a8.ui> 
+connect_bd_net [get_bd_pins control_0/RegDst] [get_bd_pins RegDstMux_0/Sel]
+connect_bd_net [get_bd_pins control_0/ALUSrc] [get_bd_pins ALUSrcMux_0/Sel]
+create_bd_cell -type module -reference WriteBackMux WriteBackMux_0
+set_property location {9.5 3142 -257} [get_bd_cells WriteBackMux_0]
+set_property location {10 3159 -227} [get_bd_cells WriteBackMux_0]
+connect_bd_net [get_bd_pins control_0/MemToReg] [get_bd_pins WriteBackMux_0/Sel]
+startgroup
+connect_bd_net [get_bd_pins DataMem_0/MemRead] [get_bd_pins control_0/MemToReg]
+endgroup
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins DataMem_0/MemRead] [get_bd_pins control_0/MemToReg]'
+INFO: [Common 17-17] undo 'startgroup'
+connect_bd_net [get_bd_pins DataMem_0/MemRead] [get_bd_pins control_0/MemRead]
+connect_bd_net [get_bd_pins DataMem_0/MemWrite] [get_bd_pins control_0/MemWrite]
+set_property location {7 2192 -28} [get_bd_cells alu_control_0]
+connect_bd_net [get_bd_pins control_0/MemWrite] [get_bd_pins alu_control_0/ALUOp]
+set_property location {3454 -457} [get_bd_ports Zero]
+set_property location {3361 -426} [get_bd_ports Overflow]
+set_property location {3380 -391} [get_bd_ports Carryout]
+undo
+INFO: [Common 17-17] undo 'set_property location {3380 -391} [get_bd_ports Carryout]'
+set_property location {3433 -389} [get_bd_ports Carryout]
+connect_bd_net [get_bd_ports CLK] [get_bd_pins DataMem_0/clk]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_ports CLK] [get_bd_pins DataMem_0/clk]'
+connect_bd_net [get_bd_ports EN] [get_bd_pins DataMem_0/en]
+connect_bd_net [get_bd_ports CLK] [get_bd_pins DataMem_0/clk]
+connect_bd_net [get_bd_pins DataMem_0/addr] [get_bd_pins alu_0/ALUout]
+connect_bd_net [get_bd_pins DataMem_0/WriteData] [get_bd_pins RegFile_0/read_data2]
+connect_bd_net [get_bd_ports Zero] [get_bd_pins alu_0/Zero]
+connect_bd_net [get_bd_ports Overflow] [get_bd_pins alu_0/Overflow]
+connect_bd_net [get_bd_ports Carryout] [get_bd_pins alu_0/Carryout]
+connect_bd_net [get_bd_pins alu_0/Carryout] [get_bd_pins WriteBackMux_0/ALUOut]
+connect_bd_net [get_bd_pins DataMem_0/ReadData] [get_bd_pins WriteBackMux_0/ReadData]
+set_property location {3460 -224} [get_bd_ports DOut]
+set_property location {3461 -238} [get_bd_ports DOut]
+set_property location {3454 -231} [get_bd_ports DOut]
+connect_bd_net [get_bd_ports DOut] [get_bd_pins WriteBackMux_0/Dout]
+make_wrapper -files [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -top
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/RegFile_0/write_en
+/RegFile_0/write_data
+/control_0/Opcode
+
+Wrote  : <D:\Lab5\Lab5.srcs\sources_1\bd\Lab5\Lab5.bd> 
+Wrote  : <D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/ui/bd_3ba108a8.ui> 
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/synth/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/sim/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+make_wrapper: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1673.223 ; gain = 208.059
+add_files -norecurse d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+connect_bd_net [get_bd_pins xlslice_0/Dout] [get_bd_pins control_0/Opcode]
+delete_bd_objs [get_bd_nets control_0_MemWrite]
+connect_bd_net [get_bd_pins control_0/ALUOp] [get_bd_pins alu_control_0/ALUOp]
+connect_bd_net [get_bd_pins DataMem_0/MemWrite] [get_bd_pins control_0/MemWrite]
+export_ip_user_files -of_objects  [get_files d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -top
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/RegFile_0/write_en
+/RegFile_0/write_data
+
+Wrote  : <D:\Lab5\Lab5.srcs\sources_1\bd\Lab5\Lab5.bd> 
+Wrote  : <D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/ui/bd_3ba108a8.ui> 
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/synth/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/sim/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+add_files -norecurse d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+connect_bd_net [get_bd_pins RegFile_0/write_data] [get_bd_pins WriteBackMux_0/Dout]
+export_ip_user_files -of_objects  [get_files d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -top
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/RegFile_0/write_en
+
+Wrote  : <D:\Lab5\Lab5.srcs\sources_1\bd\Lab5\Lab5.bd> 
+Wrote  : <D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/ui/bd_3ba108a8.ui> 
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/synth/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/sim/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+add_files -norecurse d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+connect_bd_net [get_bd_pins control_0/RegWrite] [get_bd_pins RegFile_0/write_en]
+make_wrapper -files [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -top
+Wrote  : <D:\Lab5\Lab5.srcs\sources_1\bd\Lab5\Lab5.bd> 
+Wrote  : <D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/ui/bd_3ba108a8.ui> 
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/synth/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/sim/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+add_files -norecurse d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+generate_target all [get_files  D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd]
+INFO: [BD 41-1662] The design 'Lab5.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/synth/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/sim/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block InstMem_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block control_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DataMem_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block WriteBackMux_0 .
+Exporting to file d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hw_handoff/Lab5.hwh
+Generated Hardware Definition File d:/Lab5/Lab5.gen/sources_1/bd/Lab5/synth/Lab5.hwdef
+catch { config_ip_cache -export [get_ips -all Lab5_InstMem_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Lab5_InstMem_0_0
+catch { config_ip_cache -export [get_ips -all Lab5_control_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Lab5_control_0_0
+catch { config_ip_cache -export [get_ips -all Lab5_DataMem_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Lab5_DataMem_0_0
+catch { config_ip_cache -export [get_ips -all Lab5_WriteBackMux_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Lab5_WriteBackMux_0_0
+export_ip_user_files -of_objects [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd]
+launch_runs Lab5_DataMem_0_0_synth_1 Lab5_InstMem_0_0_synth_1 Lab5_WriteBackMux_0_0_synth_1 Lab5_control_0_0_synth_1 -jobs 12
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Lab5_DataMem_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Lab5_InstMem_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Lab5_WriteBackMux_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Lab5_control_0_0
+[Fri Nov  3 10:08:32 2023] Launched Lab5_DataMem_0_0_synth_1, Lab5_InstMem_0_0_synth_1, Lab5_WriteBackMux_0_0_synth_1, Lab5_control_0_0_synth_1...
+Run output will be captured here:
+Lab5_DataMem_0_0_synth_1: D:/Lab5/Lab5.runs/Lab5_DataMem_0_0_synth_1/runme.log
+Lab5_InstMem_0_0_synth_1: D:/Lab5/Lab5.runs/Lab5_InstMem_0_0_synth_1/runme.log
+Lab5_WriteBackMux_0_0_synth_1: D:/Lab5/Lab5.runs/Lab5_WriteBackMux_0_0_synth_1/runme.log
+Lab5_control_0_0_synth_1: D:/Lab5/Lab5.runs/Lab5_control_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -directory D:/Lab5/Lab5.ip_user_files/sim_scripts -ip_user_files_dir D:/Lab5/Lab5.ip_user_files -ipstatic_source_dir D:/Lab5/Lab5.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Lab5/Lab5.cache/compile_simlib/modelsim} {questa=D:/Lab5/Lab5.cache/compile_simlib/questa} {riviera=D:/Lab5/Lab5.cache/compile_simlib/riviera} {activehdl=D:/Lab5/Lab5.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'TestBench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-12490] The selected simulation model for 'Lab5_DataMem_0_0' IP changed to 'rtl' from '', the simulation run directory will be deleted.
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Lab5/Lab5.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'D:/Lab5/Lab5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'TestBench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Lab5/Lab5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TestBench_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_ProgramCounter_0_0/sim/Lab5_ProgramCounter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_ProgramCounter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_InstMem_0_0/sim/Lab5_InstMem_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_InstMem_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_PCAdder_0_0/sim/Lab5_PCAdder_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_PCAdder_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_0_0/sim/Lab5_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_0/sim/Lab5_xlslice_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_1/sim/Lab5_xlslice_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_2/sim/Lab5_xlslice_1_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_3/sim/Lab5_xlslice_1_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_4/sim/Lab5_xlslice_1_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_5/sim/Lab5_xlslice_1_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_6/sim/Lab5_xlslice_1_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_RegFile_0_0/sim/Lab5_RegFile_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_RegFile_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_sign_ext_0_0/sim/Lab5_sign_ext_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_sign_ext_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_RegDstMux_0_0/sim/Lab5_RegDstMux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_RegDstMux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_alu_0_0/sim/Lab5_alu_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_alu_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_alu_control_0_0/sim/Lab5_alu_control_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_alu_control_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_ALUSrcMux_0_0/sim/Lab5_ALUSrcMux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_ALUSrcMux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_control_0_0/sim/Lab5_control_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_control_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_DataMem_0_0/sim/Lab5_DataMem_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_DataMem_0_0
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1738.555 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:17 . Memory (MB): peak = 1738.555 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+update_module_reference Lab5_control_0_0
+Upgrading 'D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd'
+delete_ip_run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1742.910 ; gain = 4.355
+INFO: [IP_Flow 19-3420] Updated Lab5_control_0_0 to use current project options
+Wrote  : <D:\Lab5\Lab5.srcs\sources_1\bd\Lab5\Lab5.bd> 
+Wrote  : <D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/ui/bd_3ba108a8.ui> 
+upgrade_ip: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1742.910 ; gain = 4.355
+update_module_reference: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1742.910 ; gain = 4.355
+export_ip_user_files -of_objects  [get_files d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -top
+Wrote  : <D:\Lab5\Lab5.srcs\sources_1\bd\Lab5\Lab5.bd> 
+Wrote  : <D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/ui/bd_3ba108a8.ui> 
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/synth/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/sim/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+add_files -norecurse d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+generate_target all [get_files  D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd]
+INFO: [BD 41-1662] The design 'Lab5.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/synth/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/sim/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block control_0 .
+Exporting to file d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hw_handoff/Lab5.hwh
+Generated Hardware Definition File d:/Lab5/Lab5.gen/sources_1/bd/Lab5/synth/Lab5.hwdef
+catch { config_ip_cache -export [get_ips -all Lab5_control_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Lab5_control_0_0
+export_ip_user_files -of_objects [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -no_script -sync -force -quiet
+INFO: [Vivado 12-23855] The given sub-design is auto disabled, no action will be taken: 'D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd'
+export_simulation -of_objects [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -directory D:/Lab5/Lab5.ip_user_files/sim_scripts -ip_user_files_dir D:/Lab5/Lab5.ip_user_files -ipstatic_source_dir D:/Lab5/Lab5.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Lab5/Lab5.cache/compile_simlib/modelsim} {questa=D:/Lab5/Lab5.cache/compile_simlib/questa} {riviera=D:/Lab5/Lab5.cache/compile_simlib/riviera} {activehdl=D:/Lab5/Lab5.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'TestBench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Lab5/Lab5.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'D:/Lab5/Lab5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'TestBench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Lab5/Lab5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TestBench_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_ProgramCounter_0_0/sim/Lab5_ProgramCounter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_ProgramCounter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_InstMem_0_0/sim/Lab5_InstMem_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_InstMem_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_PCAdder_0_0/sim/Lab5_PCAdder_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_PCAdder_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_0_0/sim/Lab5_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_0/sim/Lab5_xlslice_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_1/sim/Lab5_xlslice_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_2/sim/Lab5_xlslice_1_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_3/sim/Lab5_xlslice_1_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_4/sim/Lab5_xlslice_1_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_5/sim/Lab5_xlslice_1_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_6/sim/Lab5_xlslice_1_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_RegFile_0_0/sim/Lab5_RegFile_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_RegFile_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_sign_ext_0_0/sim/Lab5_sign_ext_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_sign_ext_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_RegDstMux_0_0/sim/Lab5_RegDstMux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_RegDstMux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_alu_0_0/sim/Lab5_alu_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_alu_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_alu_control_0_0/sim/Lab5_alu_control_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_alu_control_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_ALUSrcMux_0_0/sim/Lab5_ALUSrcMux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_ALUSrcMux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_control_0_0/sim/Lab5_control_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_control_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_DataMem_0_0/sim/Lab5_DataMem_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_DataMem_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlconstant_0_1/sim/Lab5_xlconstant_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlconstant_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_WriteBackMux_0_0/sim/Lab5_WriteBackMux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_WriteBackMux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/sim/Lab5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj TestBench_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/pc.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ProgramCounter'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/instmem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'InstMem'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/pcadder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PCAdder'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/RegFile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RegFile'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/sign_ext.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sign_ext'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/RegDstMux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RegDstMux'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/alu_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_control'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/ALUSrcMux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALUSrcMux'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/DataMem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DataMem'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/WriteBackMux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'WriteBackMux'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sim_1/imports/tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TestBench'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1742.910 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Lab5/Lab5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xlconstant_v1_1_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xlconstant_v1_1_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3219] choice '"100001"' is already covered [D:/Lab5/Lab5.srcs/sources_1/imports/control.vhd:68]
+ERROR: [VRFC 10-3219] choice '"100001"' is already covered [D:/Lab5/Lab5.srcs/sources_1/imports/control.vhd:77]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Lab5/Lab5.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Lab5/Lab5.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1742.910 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_module_reference Lab5_control_0_0
+Upgrading 'D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd'
+INFO: [IP_Flow 19-3420] Updated Lab5_control_0_0 to use current project options
+Wrote  : <D:\Lab5\Lab5.srcs\sources_1\bd\Lab5\Lab5.bd> 
+update_module_reference Lab5_InstMem_0_0
+Upgrading 'D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd'
+INFO: [IP_Flow 19-3420] Updated Lab5_InstMem_0_0 to use current project options
+Wrote  : <D:\Lab5\Lab5.srcs\sources_1\bd\Lab5\Lab5.bd> 
+Wrote  : <D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/ui/bd_3ba108a8.ui> 
+export_ip_user_files -of_objects  [get_files d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+update_module_reference Lab5_InstMem_0_0
+Upgrading 'D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd'
+INFO: [IP_Flow 19-3420] Updated Lab5_InstMem_0_0 to use current project options
+Wrote  : <D:\Lab5\Lab5.srcs\sources_1\bd\Lab5\Lab5.bd> 
+Wrote  : <D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/ui/bd_3ba108a8.ui> 
+update_module_reference Lab5_control_0_0
+Upgrading 'D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd'
+INFO: [IP_Flow 19-3420] Updated Lab5_control_0_0 to use current project options
+Wrote  : <D:\Lab5\Lab5.srcs\sources_1\bd\Lab5\Lab5.bd> 
+Wrote  : <D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/ui/bd_3ba108a8.ui> 
+make_wrapper -files [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -top
+Wrote  : <D:\Lab5\Lab5.srcs\sources_1\bd\Lab5\Lab5.bd> 
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/synth/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/sim/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+add_files -norecurse d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+generate_target all [get_files  D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd]
+INFO: [BD 41-1662] The design 'Lab5.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/synth/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/sim/Lab5.v
+Verilog Output written to : d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block InstMem_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block control_0 .
+Exporting to file d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hw_handoff/Lab5.hwh
+Generated Hardware Definition File d:/Lab5/Lab5.gen/sources_1/bd/Lab5/synth/Lab5.hwdef
+catch { config_ip_cache -export [get_ips -all Lab5_InstMem_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Lab5_InstMem_0_0
+catch { config_ip_cache -export [get_ips -all Lab5_control_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Lab5_control_0_0
+export_ip_user_files -of_objects [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd]
+launch_runs Lab5_InstMem_0_0_synth_1 Lab5_control_0_0_synth_1 -jobs 12
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Lab5_InstMem_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Lab5_control_0_0
+[Fri Nov  3 10:25:24 2023] Launched Lab5_InstMem_0_0_synth_1, Lab5_control_0_0_synth_1...
+Run output will be captured here:
+Lab5_InstMem_0_0_synth_1: D:/Lab5/Lab5.runs/Lab5_InstMem_0_0_synth_1/runme.log
+Lab5_control_0_0_synth_1: D:/Lab5/Lab5.runs/Lab5_control_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -directory D:/Lab5/Lab5.ip_user_files/sim_scripts -ip_user_files_dir D:/Lab5/Lab5.ip_user_files -ipstatic_source_dir D:/Lab5/Lab5.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Lab5/Lab5.cache/compile_simlib/modelsim} {questa=D:/Lab5/Lab5.cache/compile_simlib/questa} {riviera=D:/Lab5/Lab5.cache/compile_simlib/riviera} {activehdl=D:/Lab5/Lab5.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'TestBench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Lab5/Lab5.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'D:/Lab5/Lab5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'TestBench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Lab5/Lab5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TestBench_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_ProgramCounter_0_0/sim/Lab5_ProgramCounter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_ProgramCounter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_InstMem_0_0/sim/Lab5_InstMem_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_InstMem_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_PCAdder_0_0/sim/Lab5_PCAdder_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_PCAdder_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_0_0/sim/Lab5_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_0/sim/Lab5_xlslice_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_1/sim/Lab5_xlslice_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_2/sim/Lab5_xlslice_1_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_3/sim/Lab5_xlslice_1_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_4/sim/Lab5_xlslice_1_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_5/sim/Lab5_xlslice_1_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlslice_1_6/sim/Lab5_xlslice_1_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlslice_1_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_RegFile_0_0/sim/Lab5_RegFile_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_RegFile_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_sign_ext_0_0/sim/Lab5_sign_ext_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_sign_ext_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_RegDstMux_0_0/sim/Lab5_RegDstMux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_RegDstMux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_alu_0_0/sim/Lab5_alu_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_alu_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_alu_control_0_0/sim/Lab5_alu_control_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_alu_control_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_ALUSrcMux_0_0/sim/Lab5_ALUSrcMux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_ALUSrcMux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_control_0_0/sim/Lab5_control_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_control_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_DataMem_0_0/sim/Lab5_DataMem_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_DataMem_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_xlconstant_0_1/sim/Lab5_xlconstant_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_xlconstant_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/ip/Lab5_WriteBackMux_0_0/sim/Lab5_WriteBackMux_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_WriteBackMux_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/sim/Lab5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab5_wrapper
+"xvhdl --incr --relax -prj TestBench_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/instmem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'InstMem'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab5/Lab5.srcs/sources_1/imports/control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1769.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '9' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Lab5/Lab5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xlconstant_v1_1_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L xlconstant_v1_1_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ALUSrcMux [alusrcmux_default]
+Compiling module xil_defaultlib.Lab5_ALUSrcMux_0_0
+Compiling architecture behavioral of entity xil_defaultlib.DataMem [datamem_default]
+Compiling module xil_defaultlib.Lab5_DataMem_0_0
+Compiling architecture behavioral of entity xil_defaultlib.InstMem [instmem_default]
+Compiling module xil_defaultlib.Lab5_InstMem_0_0
+Compiling architecture behavioral of entity xil_defaultlib.PCAdder [pcadder_default]
+Compiling module xil_defaultlib.Lab5_PCAdder_0_0
+Compiling architecture behavioral of entity xil_defaultlib.ProgramCounter [programcounter_default]
+Compiling module xil_defaultlib.Lab5_ProgramCounter_0_0
+Compiling architecture behavioral of entity xil_defaultlib.RegDstMux [regdstmux_default]
+Compiling module xil_defaultlib.Lab5_RegDstMux_0_0
+Compiling architecture behavioral of entity xil_defaultlib.RegFile [regfile_default]
+Compiling module xil_defaultlib.Lab5_RegFile_0_0
+Compiling architecture behavioral of entity xil_defaultlib.WriteBackMux [writebackmux_default]
+Compiling module xil_defaultlib.Lab5_WriteBackMux_0_0
+Compiling architecture behavioral of entity xil_defaultlib.alu [alu_default]
+Compiling module xil_defaultlib.Lab5_alu_0_0
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling module xil_defaultlib.Lab5_alu_control_0_0
+Compiling architecture behavioral of entity xil_defaultlib.control [control_default]
+Compiling module xil_defaultlib.Lab5_control_0_0
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling module xil_defaultlib.Lab5_sign_ext_0_0
+Compiling module xlconstant_v1_1_7.xlconstant_v1_1_7_xlconstant(CON...
+Compiling module xil_defaultlib.Lab5_xlconstant_0_1
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_0_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_1_0
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_1_1
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_1_2
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_1_3
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_1_4
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_1_5
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.Lab5_xlslice_1_6
+Compiling module xil_defaultlib.Lab5
+Compiling module xil_defaultlib.Lab5_wrapper
+Compiling architecture sim of entity xil_defaultlib.testbench
+Built simulation snapshot TestBench_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1769.973 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Lab5/Lab5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TestBench_behav -key {Behavioral:sim_1:Functional:TestBench} -tclbatch {TestBench.tcl} -protoinst "protoinst_files/Lab5.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+ERROR: [Simtcl 6-50] Simulation engine failed to start: Failed to launch child process (child exe not found).
+Please see the Tcl Console or the Messages for details.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  3 10:26:04 2023...

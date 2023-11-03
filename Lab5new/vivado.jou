@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Fri Nov  3 10:32:17 2023
+# Process ID: 22828
+# Current directory: D:/Lab5new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13860 D:\Lab5new\Lab5new.xpr
+# Log file: D:/Lab5new/vivado.log
+# Journal file: D:/Lab5new\vivado.jou
+# Running On: ENGR1505-24, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 16, Host memory: 34033 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Lab5new/Lab5new.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse -scan_for_includes D:/tb.vhd
+import_files -fileset sim_1 -norecurse D:/tb.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+create_bd_design "Lab5new"
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference ProgramCounter ProgramCounter_0
+create_bd_cell -type module -reference InstMem InstMem_0
+create_bd_cell -type module -reference PCAdder PCAdder_0
+create_bd_port -dir I EN
+create_bd_port -dir I RST
+create_bd_port -dir I CLK
+set_property location {-47 121} [get_bd_ports RST]
+set_property location {-36 141} [get_bd_ports EN]
+set_property location {-37 105} [get_bd_ports CLK]
+connect_bd_net [get_bd_ports CLK] [get_bd_pins ProgramCounter_0/CLK]
+connect_bd_net [get_bd_ports RST] [get_bd_pins ProgramCounter_0/RST]
+connect_bd_net [get_bd_ports EN] [get_bd_pins ProgramCounter_0/EN]
+connect_bd_net [get_bd_pins PCAdder_0/NextAddr] [get_bd_pins ProgramCounter_0/NextAddr]
+connect_bd_net [get_bd_pins ProgramCounter_0/CurrAddr] [get_bd_pins PCAdder_0/CurrAddr]
+connect_bd_net [get_bd_pins InstMem_0/addr] [get_bd_pins ProgramCounter_0/CurrAddr]
+set_property location {1.5 428 26} [get_bd_cells InstMem_0]
+set_property location {2 493 134} [get_bd_cells InstMem_0]
+set_property location {1 134 -46} [get_bd_cells PCAdder_0]
+create_bd_cell -type module -reference RegFile RegFile_0
+set_property location {2.5 682 57} [get_bd_cells RegFile_0]
+set_property location {3 762 133} [get_bd_cells RegFile_0]
+set_property location {3.5 1009 118} [get_bd_cells RegFile_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_0
+endgroup
+set_property location {3.5 763 -170} [get_bd_cells xlslice_0]
+copy_bd_objs /  [get_bd_cells {xlslice_0}]
+set_property location {3 750 -84} [get_bd_cells xlslice_1]
+copy_bd_objs /  [get_bd_cells {xlslice_0}]
+set_property location {3 735 10} [get_bd_cells xlslice_2]
+copy_bd_objs /  [get_bd_cells {xlslice_0}]
+set_property location {3 761 98} [get_bd_cells xlslice_3]
+copy_bd_objs /  [get_bd_cells {xlslice_0}]
+set_property location {3 803 203} [get_bd_cells xlslice_4]
+copy_bd_objs /  [get_bd_cells {xlslice_0}]
+set_property location {3 791 309} [get_bd_cells xlslice_5]
+copy_bd_objs /  [get_bd_cells {xlslice_0}]
+set_property location {3 770 407} [get_bd_cells xlslice_6]
+copy_bd_objs /  [get_bd_cells {xlslice_0}]
+set_property location {3 800 508} [get_bd_cells xlslice_7]
+set_property -dict [list \
+  CONFIG.DIN_FROM {31} \
+  CONFIG.DIN_TO {26} \
+] [get_bd_cells xlslice_0]
+set_property -dict [list \
+  CONFIG.DIN_FROM {25} \
+  CONFIG.DIN_TO {21} \
+] [get_bd_cells xlslice_1]
+set_property -dict [list \
+  CONFIG.DIN_FROM {20} \
+  CONFIG.DIN_TO {16} \
+] [get_bd_cells xlslice_2]
+set_property -dict [list \
+  CONFIG.DIN_FROM {15} \
+  CONFIG.DIN_TO {11} \
+] [get_bd_cells xlslice_3]
+set_property -dict [list \
+  CONFIG.DIN_FROM {10} \
+  CONFIG.DIN_TO {6} \
+] [get_bd_cells xlslice_4]
+set_property CONFIG.DIN_FROM {15} [get_bd_cells xlslice_5]
+set_property CONFIG.DIN_FROM {5} [get_bd_cells xlslice_6]
+set_property -dict [list \
+  CONFIG.DIN_FROM {6} \
+  CONFIG.DIN_TO {2} \
+] [get_bd_cells xlslice_7]
+create_bd_cell -type module -reference control control_0
+set_property location {4 1040 -199} [get_bd_cells control_0]
+connect_bd_net [get_bd_pins xlslice_0/Dout] [get_bd_pins control_0/Opcode]

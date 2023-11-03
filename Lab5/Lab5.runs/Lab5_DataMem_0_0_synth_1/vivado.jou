@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Fri Nov  3 10:08:35 2023
+# Process ID: 22136
+# Current directory: D:/Lab5/Lab5.runs/Lab5_DataMem_0_0_synth_1
+# Command line: vivado.exe -log Lab5_DataMem_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab5_DataMem_0_0.tcl
+# Log file: D:/Lab5/Lab5.runs/Lab5_DataMem_0_0_synth_1/Lab5_DataMem_0_0.vds
+# Journal file: D:/Lab5/Lab5.runs/Lab5_DataMem_0_0_synth_1\vivado.jou
+# Running On: ENGR1505-24, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 16, Host memory: 34033 MB
+#-----------------------------------------------------------
+source Lab5_DataMem_0_0.tcl -notrace

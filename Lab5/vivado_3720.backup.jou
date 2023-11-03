@@ -1,0 +1,141 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Fri Nov  3 09:38:37 2023
+# Process ID: 3720
+# Current directory: D:/Lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14340 D:\Lab5\Lab5.xpr
+# Log file: D:/Lab5/vivado.log
+# Journal file: D:/Lab5\vivado.jou
+# Running On: ENGR1505-24, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 16, Host memory: 34033 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Lab5/Lab5.xpr
+report_ip_status -name ip_status 
+open_bd_design {D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd}
+update_compile_order -fileset sources_1
+delete_bd_objs [get_bd_nets xlconstant_0_dout] [get_bd_cells xlconstant_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0
+endgroup
+set_property location {7 2297 -572} [get_bd_cells xlconstant_0]
+connect_bd_net [get_bd_pins xlconstant_0/dout] [get_bd_pins alu_0/Carryin]
+startgroup
+set_property CONFIG.CONST_VAL {0} [get_bd_cells xlconstant_0]
+endgroup
+update_module_reference Lab5_InstMem_0_0
+connect_bd_net [get_bd_pins control_0/RegDst] [get_bd_pins RegDstMux_0/Sel]
+connect_bd_net [get_bd_pins control_0/ALUSrc] [get_bd_pins ALUSrcMux_0/Sel]
+create_bd_cell -type module -reference WriteBackMux WriteBackMux_0
+set_property location {9.5 3142 -257} [get_bd_cells WriteBackMux_0]
+set_property location {10 3159 -227} [get_bd_cells WriteBackMux_0]
+connect_bd_net [get_bd_pins control_0/MemToReg] [get_bd_pins WriteBackMux_0/Sel]
+startgroup
+connect_bd_net [get_bd_pins DataMem_0/MemRead] [get_bd_pins control_0/MemToReg]
+endgroup
+undo
+connect_bd_net [get_bd_pins DataMem_0/MemRead] [get_bd_pins control_0/MemRead]
+connect_bd_net [get_bd_pins DataMem_0/MemWrite] [get_bd_pins control_0/MemWrite]
+set_property location {7 2192 -28} [get_bd_cells alu_control_0]
+connect_bd_net [get_bd_pins control_0/MemWrite] [get_bd_pins alu_control_0/ALUOp]
+set_property location {3454 -457} [get_bd_ports Zero]
+set_property location {3361 -426} [get_bd_ports Overflow]
+set_property location {3380 -391} [get_bd_ports Carryout]
+undo
+set_property location {3433 -389} [get_bd_ports Carryout]
+connect_bd_net [get_bd_ports CLK] [get_bd_pins DataMem_0/clk]
+undo
+connect_bd_net [get_bd_ports EN] [get_bd_pins DataMem_0/en]
+connect_bd_net [get_bd_ports CLK] [get_bd_pins DataMem_0/clk]
+connect_bd_net [get_bd_pins DataMem_0/addr] [get_bd_pins alu_0/ALUout]
+connect_bd_net [get_bd_pins DataMem_0/WriteData] [get_bd_pins RegFile_0/read_data2]
+connect_bd_net [get_bd_ports Zero] [get_bd_pins alu_0/Zero]
+connect_bd_net [get_bd_ports Overflow] [get_bd_pins alu_0/Overflow]
+connect_bd_net [get_bd_ports Carryout] [get_bd_pins alu_0/Carryout]
+connect_bd_net [get_bd_pins alu_0/Carryout] [get_bd_pins WriteBackMux_0/ALUOut]
+connect_bd_net [get_bd_pins DataMem_0/ReadData] [get_bd_pins WriteBackMux_0/ReadData]
+set_property location {3460 -224} [get_bd_ports DOut]
+set_property location {3461 -238} [get_bd_ports DOut]
+set_property location {3454 -231} [get_bd_ports DOut]
+connect_bd_net [get_bd_ports DOut] [get_bd_pins WriteBackMux_0/Dout]
+make_wrapper -files [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -top
+add_files -norecurse d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+connect_bd_net [get_bd_pins xlslice_0/Dout] [get_bd_pins control_0/Opcode]
+delete_bd_objs [get_bd_nets control_0_MemWrite]
+connect_bd_net [get_bd_pins control_0/ALUOp] [get_bd_pins alu_control_0/ALUOp]
+connect_bd_net [get_bd_pins DataMem_0/MemWrite] [get_bd_pins control_0/MemWrite]
+export_ip_user_files -of_objects  [get_files d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -top
+add_files -norecurse d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+connect_bd_net [get_bd_pins RegFile_0/write_data] [get_bd_pins WriteBackMux_0/Dout]
+export_ip_user_files -of_objects  [get_files d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -top
+add_files -norecurse d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+connect_bd_net [get_bd_pins control_0/RegWrite] [get_bd_pins RegFile_0/write_en]
+make_wrapper -files [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -top
+add_files -norecurse d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+generate_target all [get_files  D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd]
+catch { config_ip_cache -export [get_ips -all Lab5_InstMem_0_0] }
+catch { config_ip_cache -export [get_ips -all Lab5_control_0_0] }
+catch { config_ip_cache -export [get_ips -all Lab5_DataMem_0_0] }
+catch { config_ip_cache -export [get_ips -all Lab5_WriteBackMux_0_0] }
+export_ip_user_files -of_objects [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd]
+launch_runs Lab5_DataMem_0_0_synth_1 Lab5_InstMem_0_0_synth_1 Lab5_WriteBackMux_0_0_synth_1 Lab5_control_0_0_synth_1 -jobs 12
+wait_on_run Lab5_DataMem_0_0_synth_1
+wait_on_run Lab5_InstMem_0_0_synth_1
+wait_on_run Lab5_WriteBackMux_0_0_synth_1
+wait_on_run Lab5_control_0_0_synth_1
+export_simulation -of_objects [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -directory D:/Lab5/Lab5.ip_user_files/sim_scripts -ip_user_files_dir D:/Lab5/Lab5.ip_user_files -ipstatic_source_dir D:/Lab5/Lab5.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Lab5/Lab5.cache/compile_simlib/modelsim} {questa=D:/Lab5/Lab5.cache/compile_simlib/questa} {riviera=D:/Lab5/Lab5.cache/compile_simlib/riviera} {activehdl=D:/Lab5/Lab5.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+update_module_reference Lab5_control_0_0
+export_ip_user_files -of_objects  [get_files d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -top
+add_files -norecurse d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+generate_target all [get_files  D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd]
+catch { config_ip_cache -export [get_ips -all Lab5_control_0_0] }
+export_ip_user_files -of_objects [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -directory D:/Lab5/Lab5.ip_user_files/sim_scripts -ip_user_files_dir D:/Lab5/Lab5.ip_user_files -ipstatic_source_dir D:/Lab5/Lab5.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Lab5/Lab5.cache/compile_simlib/modelsim} {questa=D:/Lab5/Lab5.cache/compile_simlib/questa} {riviera=D:/Lab5/Lab5.cache/compile_simlib/riviera} {activehdl=D:/Lab5/Lab5.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+launch_simulation
+update_module_reference Lab5_control_0_0
+update_module_reference Lab5_InstMem_0_0
+export_ip_user_files -of_objects  [get_files d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+update_module_reference Lab5_InstMem_0_0
+update_module_reference Lab5_control_0_0
+make_wrapper -files [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -top
+add_files -norecurse d:/Lab5/Lab5.gen/sources_1/bd/Lab5/hdl/Lab5_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+generate_target all [get_files  D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd]
+catch { config_ip_cache -export [get_ips -all Lab5_InstMem_0_0] }
+catch { config_ip_cache -export [get_ips -all Lab5_control_0_0] }
+export_ip_user_files -of_objects [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd]
+launch_runs Lab5_InstMem_0_0_synth_1 Lab5_control_0_0_synth_1 -jobs 12
+wait_on_run Lab5_InstMem_0_0_synth_1
+wait_on_run Lab5_control_0_0_synth_1
+export_simulation -of_objects [get_files D:/Lab5/Lab5.srcs/sources_1/bd/Lab5/Lab5.bd] -directory D:/Lab5/Lab5.ip_user_files/sim_scripts -ip_user_files_dir D:/Lab5/Lab5.ip_user_files -ipstatic_source_dir D:/Lab5/Lab5.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Lab5/Lab5.cache/compile_simlib/modelsim} {questa=D:/Lab5/Lab5.cache/compile_simlib/questa} {riviera=D:/Lab5/Lab5.cache/compile_simlib/riviera} {activehdl=D:/Lab5/Lab5.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation

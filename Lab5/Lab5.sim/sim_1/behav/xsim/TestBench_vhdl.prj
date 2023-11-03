@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Lab5.srcs/sources_1/imports/pc.vhd" \
+"../../../../Lab5.srcs/sources_1/imports/instmem.vhd" \
+"../../../../Lab5.srcs/sources_1/imports/pcadder.vhd" \
+"../../../../Lab5.srcs/sources_1/imports/RegFile.vhd" \
+"../../../../Lab5.srcs/sources_1/imports/sign_ext.vhd" \
+"../../../../Lab5.srcs/sources_1/imports/RegDstMux.vhd" \
+"../../../../Lab5.srcs/sources_1/imports/alu.vhd" \
+"../../../../Lab5.srcs/sources_1/imports/alu_control.vhd" \
+"../../../../Lab5.srcs/sources_1/imports/ALUSrcMux.vhd" \
+"../../../../Lab5.srcs/sources_1/imports/control.vhd" \
+"../../../../Lab5.srcs/sources_1/imports/DataMem.vhd" \
+"../../../../Lab5.srcs/sources_1/imports/WriteBackMux.vhd" \
+"../../../../Lab5.srcs/sim_1/imports/tb.vhd" \
+
+# Do not sort compile order
+nosort
